@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 5</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/53a4530725.js" crossorigin="anonymous"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="nav-left">
+        <img src="assets/logo.png" alt="logo">
+        <ul>
+            <li>
+                <a href="index.html" >Home</a>
+            </li>
+            <li>
+                <a href="blog.html 
+                " class="active" style="font-weight: bold;">My Project</a>
+            </li>
+        </ul>
+    </div>
+    <div class="nav-right">
+        <a href="contact.html">Contact Me</a>
+    </div>
+</nav>
+  <!-- END NAVBAR -->
+  <!-- CONTENTS -->
+  
+  <!-- END CONTENTS -->
+  <body>
+    <!-- ====== PROJECT ========== -->
+
+    <div class="container">
+      <div class="contact-form-center">
+        <form onsubmit="addBlog(event)">
+          <h1>ADD MY PROJECT</h1>
+
+          <div class="title">
+            <label for="title">Project Name</label>
+            <input type="text" name="" id="title" />
+          </div>
+
+          <div class="form-date div">
+            <div>
+              <label for="sDate">Start Date</label>
+              <input type="date" name="" id="sDate" />
+            </div>
+
+            <div>
+              <label for="eDate">End Date</label>
+              <input type="date" name="" id="eDate" />
+            </div>
+          </div>
+
+          <div class="description">
+            <label for="description">Description</label>
+            <textarea name="" id="description" cols="30" rows="10"></textarea>
+          </div>
+
+          <div class="technologies">
+            <label for="">Technologies</label>
+            <div class="form-contact-cb">
+              <div>
+                <div>
+                  <input type="checkbox" id="reactjs" value="bx bxl-react " />
+                  <label for="reactjs">Javascripts </label>
+                </div>
+                <div>
+                  <input type="checkbox" id="javascript" value='bx bxl-javascript  '/>
+                  <label for="Javascripts">Vue </label>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <input type="checkbox" id="node" value='bx bxl-nodejs ' />
+                  <label for="node">nodeJs </label>
+                </div>
+                <div>
+                  <input type="checkbox" id="vue" value='bx bxl-vuejs ' />
+                  <label for="Vue">reactJS </label>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="upload-image">
+            <label for="">Upload Image</label>
+            <div>
+              <label for="file-upload" class="file-upload">
+                <span>Upload</span>
+                <i class="bx bx-paperclip"></i>
+              </label>
+              <input id="file-upload" type="file" />
+            </div>
+            <button  id="submit" class="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- MY PROJECT -->
+    <div class="project-section " id="project-list" >
+      <h2>MY PROJECT</h2>
+      <div class="project-list">
+          <div class="project-card">
+            <div class="card-image">
+              <img
+                src="Assets/salvador-godoy-W1heqnHIonE-unsplash.jpg"
+                alt="salvador"
+              />
+            </div>
+            <h4 class="project-name">
+              <a href="detail-project.html">Dumbways Mobile App - 2077</a>
+            </h4>
+            <p class="durasi">Duration: 7 Month</p>
+            <p class="description">
+              Scale your Mobile Apps & Improve your Metrics with funding
+              resources, breakthrough analytics & industry-leading insights. Get
+              to the top charts with the Appodeal Accelerator!
+            </p>
+            <div class="icon">
+              <i class='bx bxl-react true' ></i>
+              <i class='bx bxl-javascript true' ></i>
+              <i class='bx bxl-nodejs true' ></i>
+              <i class='bx bxl-vuejs true' ></i>
+            </div>
+
+            <div class="div-button-project">
+              <button class="btn-aksi">edit</button>
+              <button class="btn-aksi">delete</button>
+            </div>
+            
+          </div>
+          <div class="project-card">
+            <div class="card-image">
+              <img
+                src="Assets/salvador-godoy-W1heqnHIonE-unsplash.jpg"
+                alt="salvador"
+              />
+            </div>
+            <h4 class="project-name">
+              <a href="detail-project.html">Dumbways Mobile App - 2077</a>
+            </h4>
+            <p class="durasi">Duration: 7 Month</p>
+            <p class="description">
+              Scale your Mobile Apps & Improve your Metrics with funding
+              resources, breakthrough analytics & industry-leading insights. Get
+              to the top charts with the Appodeal Accelerator!
+            </p>
+            <div class="icon">
+              <i class='bx bxl-react true' ></i>
+              <i class='bx bxl-javascript true' ></i>
+              <i class='bx bxl-nodejs true' ></i>
+              <i class='bx bxl-vuejs true' ></i>
+            </div>
+
+            <div class="div-button-project">
+              <button class="btn-aksi">edit</button>
+              <button class="btn-aksi">delete</button>
+            </div>
+            
+          </div>
+          <div class="project-card">
+            <div class="card-image">
+              <img
+                src="Assets/salvador-godoy-W1heqnHIonE-unsplash.jpg"
+                alt="salvador"
+              />
+            </div>
+            <h4 class="project-name">
+              <a href="detail-project.html">Dumbways Mobile App - 2077</a>
+            </h4>
+            <p class="durasi">Duration: 7 Month</p>
+            <p class="description">
+              Scale your Mobile Apps & Improve your Metrics with funding
+              resources, breakthrough analytics & industry-leading insights. Get
+              to the top charts with the Appodeal Accelerator!
+            </p>
+            <div class="icon">
+              <i class='bx bxl-react true' ></i>
+              <i class='bx bxl-javascript true' ></i>
+              <i class='bx bxl-nodejs true' ></i>
+              <i class='bx bxl-vuejs true' ></i>
+            </div>
+
+            <div class="div-button-project">
+              <button class="btn-aksi">edit</button>
+              <button class="btn-aksi">delete</button>
+            </div>
+            
+          </div>
+      </div>
+
+      
+      <div class="project-list" id="contents"></div>
+  </div>
+</div>
+    <!-- END MY PROJECT-->
+    <script src="blog.js"></script>
+  </body>
+</html>

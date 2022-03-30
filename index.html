@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar & Layouting</title>
+    <script src="https://kit.fontawesome.com/53a4530725.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    box-sizing: border-box;
+
+}
+nav {
+  height: 8vh;
+  background-color: white;
+  display: flex;
+}
+.nav-left img {
+  width: 50px;
+  margin-right: 30px;
+}
+nav .nav-left {
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+  flex: 50%;
+}
+.nav-left ul li {
+  display: inline;
+}
+.nav-left ul li a {
+  text-decoration: none;
+  padding: 20px;
+  color: black;
+}
+nav .nav-right {
+  display: flex;
+  flex: 50%;
+  text-align: center;
+  justify-content: flex-end;
+  padding-right: 120px;
+}
+.nav-right a {
+  margin: 17px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 20px;
+  text-decoration: none;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+}
+.container section {
+    background-color: white;
+    width: 1100px;
+    padding: 35px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 0pc 3px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+
+}
+.container section .content{
+    display: flex;
+}
+.left-content {
+    
+    width: 70%;
+    
+}
+.left-content p {
+    text-align: justify;
+    margin: 20px 0px;
+}
+.portofolio .btn {
+    text-decoration: none;
+    background-color: black;
+    border-radius: 15px;
+    padding: 10px 20px;
+    color: white;
+    margin-left: 5px;
+}
+.portofolio .btn-1 {
+    border-radius: 15px;
+    padding: 10px 20px;
+    border: none;
+    background-color: white;
+    margin-left: 7px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+.content .icon  {
+        margin-top: 20px;
+        text-decoration: none;
+        margin-left: 10px;
+        font-size: 25px;
+        padding: 10px;
+        cursor: pointer;
+        
+}
+.right-content {
+    display: flex;
+    flex: 30%;
+    padding-left:50px;
+    margin-top: 20px;
+}
+.right-content .card-name {
+    background-color: white; 
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.479); 
+    width: 280px;
+    border-radius: 5px; 
+    height: 350px;
+    text-align: center; 
+    margin: 0px auto; 
+    padding-bottom: 20px;
+}
+.right-content  img {
+    width: 280px ;
+    height: 300px;
+    border-radius: 5px 5px 0 0;
+}
+.right-content .card-name h2  {
+    margin-top: -8px;
+    margin-bottom: 0px;
+}
+.right-content .card-name p {
+    margin-top: -8px;
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="assets/logo.png" alt="logo">
+            <ul>
+                <li>
+                    <a href="index.html" style="font-weight: bold;">Home</a>
+                </li>
+                <li>
+                    <a href="blog.html">My Project</a>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <a href="contact.html">Contact Me</a>
+        </div>
+    </nav>
+    <div class="container">
+        <section>
+            <div class="content">
+            <div class="left-content">
+                <h1>Hi! I'm Kurt</h1>
+                <p>Kurt Donald Cobain (February 20, 1967 – c. April 5, 1994) was an American singer, songwriter, artist[1] and musician. He was the frontman of the rock band Nirvana, serving as the band's guitarist, lead vocalist, and primary songwriter. Through his angst-fueled songwriting and anti-establishment persona, Cobain's compositions widened the thematic conventions of mainstream rock music. He was often heralded as a spokesman of Generation X and is considered to be one of the most influential musicians in the history of alternative rock.</p>
+                <div class="portofolio">
+                    <a href="contact.html" class="btn">Contact</a>
+                    <a href="#"><button class="btn-1"> Download CV  <i class="fa-solid fa-download"></i></button></a>
+                </div>
+                <div class="icon">
+                    <i class="fa-brands fa-linkedin" style="padding-right: 10px;"></i></a>  
+                    <i class="fa-brands fa-instagram" style="padding-right: 10px;"></i></a> 
+                    <i class="fa-brands fa-facebook" style="padding-right: 10px;"></i></a> 
+                    <i class="fa-brands fa-twitter"></i></a> 
+                    </div>
+            </div>
+            <div class="right-content">
+                <div class="card-name">
+                <img src="assets/kurt.jpg" alt="kurt">
+                <h2>Kurt cobain</h2>
+                <p>American singer</p>
+            </div>
+        </div>
+        </div>
+    </section>
+    </div>
+</body>
+</html>

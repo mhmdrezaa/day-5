@@ -1,0 +1,384 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+/* NAVBAR */
+nav {
+  height: 8vh;
+  background-color: white;
+  display: flex;
+}
+.nav-left img {
+  width: 50px;
+  margin-right: 30px;
+}
+nav .nav-left {
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+  flex: 50%;
+}
+.nav-left ul li {
+  display: inline;
+}
+.nav-left ul li a {
+  text-decoration: none;
+  padding: 20px;
+  color: black;
+}
+nav .nav-right {
+  display: flex;
+  flex: 50%;
+  text-align: center;
+  justify-content: flex-end;
+  padding-right: 120px;
+}
+.nav-right a {
+  margin: 17px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 20px;
+  text-decoration: none;
+}
+/* END NAV */
+
+/* CONTENTS */
+
+/* END CONTENS */
+/* CONTACT FORM */
+.container {
+  height: 900px;
+  padding-top: 10px;
+}
+.contact-form-center {
+  width: 450px;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+.contact-form-center form h1 {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.contact-form-center form input,
+select,
+textarea {
+  width: 100%;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgb(0, 0, 0);
+  margin-top: 5px;
+  outline: none;
+}
+
+.contact-form-center form .div {
+  margin-top: 15px;
+}
+
+.contact-form-center form textarea {
+  resize: none;
+}
+
+.submit {
+  border: none;
+  background-color: rgb(17, 23, 39);
+  color: white;
+  padding: 8px 25px;
+  border-radius: 30px;
+  margin-top: 30px;
+  float: right;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* ====== PROJECT ===== */
+.form-date {
+  display: flex;
+  width: 102%;
+}
+
+.form-date div {
+  margin-right: 10px;
+}
+
+.form-contact-cb {
+  display: flex;
+  font-weight: normal;
+  flex-direction: column;
+  margin-top: 8px;
+}
+
+.form-contact-cb div {
+  display: flex;
+  width: 100%;
+}
+
+.form-contact-cb div input {
+  width: max-content;
+  margin-right: 5px;
+}
+
+.form-contact-cb div input,
+label {
+  cursor: pointer;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.file-upload {
+  margin-top: 10px;
+  background-color: white;
+  box-shadow: 0 0 1px rgb(14, 12, 12);
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.file-upload span {
+  background-color: rgba(180, 180, 180, 0.5);
+  align-items: center;
+  padding: 6px 12px;
+  display: inline-block;
+  border-radius: 5px;
+  font-weight: normal;
+  opacity: 0.8;
+}
+
+.file-upload i {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  font-size: 20px;
+  right: 10px;
+}
+
+/* MY PROJECT */
+.project-section {
+  width: 100%;
+  height: auto;
+  background-color: #1d1a1a;
+}
+.project-section h2 {
+  text-align: center;
+  padding: 50px 50px 20px 50px;
+  margin: 0;
+  color: white;
+}
+
+.project-list {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap; /* Flex Wrap agar jika element melebihi width, maka akan di letakan pada bagian bawah */
+  margin: 0px auto;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px 0px;
+  height: auto;
+}
+
+.project-card {
+  width: 28%;
+  background-color: #fff;
+  box-shadow: 1px 1px 1px #8888884f;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 10px 10px 10px 10px;
+  height: auto;
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.project-card .project-name a {
+  color: black;
+}
+.project-card i {
+  font-size: 36px;
+}
+
+.project-card .durasi {
+  opacity: 0.5;
+  font-size: 14px;
+}
+
+.project-card .description {
+  text-align: justify;
+}
+/* End Project Card */
+
+/* Button Edit Delete */
+.div-button-project {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.div-button-project .btn-aksi {
+  width: 48%;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+/* MY PROJECT */
+.projectCard {
+  width: 100%;
+  height: auto;
+  background-color: #282e31;
+}
+.projectCard h2 {
+  text-align: center;
+  justify-content: center;
+  padding: 20px auto;
+  padding-top: 30px;
+  color: white;
+}
+
+.project-list {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 350px;
+  align-items: center;
+  padding: 10px 10px;
+  justify-content: start;
+}
+
+.project-card {
+  width: 25%;
+  background-color: #fff;
+  box-shadow: 1px 1px #282e31;
+  border-radius: 5px;
+  border: 1px solid #6e7c7c;
+  padding: 15px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.card-image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border: 1px solid #e8eeee;
+  border-radius: 5px;
+  margin-top: 5px;
+  box-shadow: 3px 3px #eaeff3;
+}
+.project-card .project-name a {
+  color: black;
+}
+.project-card .icon i {
+  font-size: 25px;
+  margin: 5px 0px;
+  cursor: pointer;
+}
+
+.project-card .durasi {
+  opacity: 0.8;
+  font-size: 14px;
+}
+
+.project-card .description {
+  text-align: justify;
+}
+/* End Project Card */
+
+/* Button Edit Delete */
+.div-button-project {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.div-button-project .btn-aksi {
+  width: 47%;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  cursor: pointer;
+}
+/* END MY PROJECT */
+/* Blog detail */
+.detail-project {
+  background-color: white;
+  width: 100%;
+  height: auto;
+  padding: 20px 20px;
+}
+.detail-project h1 {
+  text-align: center;
+}
+.section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.section-left {
+  width: 60%;
+}
+.section-left img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.section-right {
+  width: 35%;
+  text-align: justify;
+}
+.section-right .duration p {
+  margin: 12px 0px;
+}
+.section-right .duration i {
+  font-weight: bold;
+  font-size: 24px;
+  margin-right: 10px;
+}
+.section-right .icon {
+  display: flex;
+}
+.section-right .icon .left {
+  margin: 5px 0px;
+  padding-right: 40px;
+}
+.section-right .icon .left i {
+  margin-right: 5px;
+  font-size: 20px;
+}
+.section-right .icon .right {
+  margin: 5px 0px;
+  padding-right: 40px;
+}
+.section-right .icon .right i {
+  margin-right: 5px;
+  font-size: 20px;
+}
+.detail-description {
+  text-align: justify;
+  margin: 25px 20px;
+
+  width: 90%;
+}
+
+/* END BLOG */
